@@ -3,24 +3,24 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7rem;
+  width: 7rem;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: left; verticale*/
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.qty
+{
+  position: relative;
+  left: 0.1em;
+  width: 71%;
+  vertical-align: center;
+}
+
+
+.product
+{
+  position: static;
+  min-height: 370px;
+  height: 370px;
+}
+
+.description
+{
+  width: 95%;
+}
+
+.imge
+{
+  height: 104px;
+  width: 104px;
+}
+
+.absolu
+{
+  width: 100%;
+}
+
+.card {
+  background-color: none;
+  border: none;
 }
